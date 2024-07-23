@@ -28,10 +28,11 @@
       opacity: 0;
       border-radius: 100rem;
       text-transform: capitalize;
+      user-select: none;
     }
     path,
     circle {
-      stroke: #666666;
+      stroke: #818181;
       transition: stroke 0.3s;
     }
 
