@@ -1,0 +1,51 @@
+.intro {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  overflow: hidden;
+
+  &__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: contrast(1.2) brightness(0.9) saturate(0.5);
+  }
+}
+
+.top-text {
+  position: absolute;
+  top: calc(50% - 22rem);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+  font-family: "WildWorld", sans-serif;
+  letter-spacing: 5rem;
+  width: max-content;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+
+.bottom-text {
+  position: absolute;
+  top: calc(50% + 22rem);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+  font-family: "WildWorld", sans-serif;
+  letter-spacing: 3rem;
+  width: max-content;
+  font-size: 1rem;
+}

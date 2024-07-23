@@ -1,0 +1,33 @@
+/*! Fonts */
+
+/** Wild World */
+@font-face {
+  font-family: "WildWorld";
+  src: url("./assets/fonts/WildWorld.otf") format("truetype");
+  font-weight: 300;
+}
+
+/** Clash Display */
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./assets/fonts/ClashDisplayRegular.ttf") format("truetype");
+  font-weight: 300;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "ClashDisplay", sans-serif;
+}
